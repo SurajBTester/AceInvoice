@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="22" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="521359" started-at="2020-04-27T11:23:51Z" finished-at="2020-04-27T11:32:33Z">
+    <groups>
+    </groups>
+    <test name="testname" duration-ms="521359" started-at="2020-04-27T11:23:51Z" finished-at="2020-04-27T11:32:33Z">
+      <class name="com.instaone.testcases.SmokeTesting">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="launchApp" is-config="true" duration-ms="4023" started-at="2020-04-27T11:23:47Z" finished-at="2020-04-27T11:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Login" duration-ms="2455" started-at="2020-04-27T11:23:51Z" finished-at="2020-04-27T11:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Create_user()[pri:3, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Create_user" duration-ms="10594" started-at="2020-04-27T11:23:54Z" finished-at="2020-04-27T11:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_user -->
+        <test-method status="PASS" signature="Product_registration()[pri:5, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Product_registration" duration-ms="24807" started-at="2020-04-27T11:24:04Z" description="Model creation" finished-at="2020-04-27T11:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_registration -->
+        <test-method status="PASS" signature="Create_Customer()[pri:6, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Create_Customer" duration-ms="9255" started-at="2020-04-27T11:24:29Z" finished-at="2020-04-27T11:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Customer -->
+        <test-method status="PASS" signature="Create_Supplier()[pri:7, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Create_Supplier" duration-ms="11088" started-at="2020-04-27T11:24:38Z" finished-at="2020-04-27T11:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Supplier -->
+        <test-method status="PASS" signature="Purchase_record()[pri:8, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Purchase_record" duration-ms="30552" started-at="2020-04-27T11:24:49Z" finished-at="2020-04-27T11:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchase_record -->
+        <test-method status="PASS" signature="Sale_Product()[pri:12, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Sale_Product" duration-ms="96368" started-at="2020-04-27T11:25:20Z" finished-at="2020-04-27T11:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sale_Product -->
+        <test-method status="PASS" signature="Sale_return()[pri:13, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Sale_return" duration-ms="30740" started-at="2020-04-27T11:26:56Z" finished-at="2020-04-27T11:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sale_return -->
+        <test-method status="PASS" signature="SaleReturn_Delete()[pri:15, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="SaleReturn_Delete" duration-ms="43863" started-at="2020-04-27T11:27:27Z" finished-at="2020-04-27T11:28:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaleReturn_Delete -->
+        <test-method status="PASS" signature="Sale_Delete()[pri:16, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Sale_Delete" duration-ms="31664" started-at="2020-04-27T11:28:11Z" finished-at="2020-04-27T11:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sale_Delete -->
+        <test-method status="PASS" signature="Purchase_Return()[pri:17, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Purchase_Return" duration-ms="10991" started-at="2020-04-27T11:28:43Z" finished-at="2020-04-27T11:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchase_Return -->
+        <test-method status="PASS" signature="PurchaseReturn_Deleted()[pri:18, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="PurchaseReturn_Deleted" duration-ms="37288" started-at="2020-04-27T11:28:54Z" finished-at="2020-04-27T11:29:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseReturn_Deleted -->
+        <test-method status="PASS" signature="Purchase_Deleted()[pri:19, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Purchase_Deleted" duration-ms="29674" started-at="2020-04-27T11:29:31Z" finished-at="2020-04-27T11:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchase_Deleted -->
+        <test-method status="PASS" signature="Customer_Deleted()[pri:20, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Customer_Deleted" duration-ms="25643" started-at="2020-04-27T11:30:01Z" finished-at="2020-04-27T11:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_Deleted -->
+        <test-method status="PASS" signature="Supplier_Deleted()[pri:21, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Supplier_Deleted" duration-ms="18343" started-at="2020-04-27T11:30:26Z" finished-at="2020-04-27T11:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supplier_Deleted -->
+        <test-method status="PASS" signature="Model_Deleted()[pri:22, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="Model_Deleted" duration-ms="77227" started-at="2020-04-27T11:30:45Z" finished-at="2020-04-27T11:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Model_Deleted -->
+        <test-method status="PASS" signature="User_Deleted()[pri:23, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="User_Deleted" duration-ms="30780" started-at="2020-04-27T11:32:02Z" finished-at="2020-04-27T11:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Deleted -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.instaone.testcases.SmokeTesting@7823a2f9]" name="closeApp" is-config="true" duration-ms="1" started-at="2020-04-27T11:32:33Z" finished-at="2020-04-27T11:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.instaone.testcases.SmokeTesting -->
+    </test> <!-- testname -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>
